@@ -1,4 +1,4 @@
-local config = require 'shared.config'
+local config = require 'server.config'
 
 local function kick(source)
     DropPlayer(source, config.kickMessage)
